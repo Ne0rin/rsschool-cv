@@ -1,13 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV: Roman Kachniuk</title>
-  </head>
-   <body>
-    <h1>information will come later</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>CV - Roman Kachniuk</title>
+</head>
+<body>
+
+
+
+
+
+
+  <header class="header">
+    <div class="navigation-container">
+        <nav class="navigation">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a href="#about-me">About me</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#code-example">Code example</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#experience">Education</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#languages">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<div class="presentation-container">
+  <div class="photo-container">
+      <img src="img/CV_photo.jpg" alt="Roman Kachniuk">
+  </div>
+  <div class="main-info">
+    <h1>Roman Kachniuk</h1>
+    <h3>Construction engineer and scientific researcher from Gdansk, Poland</h3>
+  </div>
+</div>
+
+
+
+
+<main>
+  <section class="contacts" id="contacts">
+      <h2>Contact information</h2>
+      <ul class="contacts-ul">
+          <li class="contacts-li">
+              <h4>Location</h4>
+              <p>Gdansk, Poland</p>
+          </li>
+          <li class="contacts-li">
+              <h4>Phone number</h4>
+              <a href="tel:+48570820496">+48570820496</a>
+          </li>
+          <li class="contacts-li">
+              <h4>Mail</h4>
+              <a href="mailto:roman.kachniuk@gmail.com">roman.kachniuk@gmail.com</a>
+          </li>
+          <li class="contacts-li">
+            <h4>Linkedin</h4>
+            <a href="https://www.linkedin.com/in/roman-kachniuk-9078b3144">@Roman_Kachniuk</a>
+        </li>
+          <li class="contacts-li">
+              <h4>GitHub</h4>
+              <a href="https://github.com/ne0rin/">@Ne0rin</a>
+          </li>
+          <li class="contacts-li">
+              <h4>Discord</h4>
+              <a href="https://discord.com/channels/@ne0rin">@Ne0rin</a>
+          </li>
+      </ul>
+  </section>
+
+
+
+
+  <section class="about" id="about-me">
+      <h2>About myself</h2>
+      <p>I started My career as a construction engineer. After getting my PhD, I started mathematical research on shells in the Fortran language. Now I want to study HTML, CSS and JS.</p>
+  </section>
+
+
+  <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-ul">
+          <li class="skills-li">HTML basics,<br>CSS basics</li>
+          <li class="skills-li">JavaScript<br>basics</li>
+          <li class="skills-li">Git,<br>GitHub</li>
+          <li class="skills-li">Fortran,<br> C++ basics</li>
+          <li class="skills-li">VS Code</li>
+          <li class="skills-li">Autodesk Robot,<br>Revit,<br>SOFiSTiK</li>
+      </ul>
+  </section>
+
+
+
+
+
+  <section class="code" id="code-example">
+      <h2>Code example</h2>
+      <pre class="code-ul">
+          <code class="code-li">
+            const printNumbers = (lastNumber) => {
+              
+              let i = 1;
+            
+              while (i <= lastNumber) {
+                console.log(i);
+                i = i + 1;
+              }
+              console.log('finished!');
+            };
+            
+            printNumbers(3);
+              </code>
+      </pre>
+  </section>
+
+
+
+
+
+  <section class="experience" id="experience">
+      <h2>Education</h2>
+      <ul class="experience-ul">
+          <li class="experience-li"><b>Belarusian National Technical University</b></li>
+          <li class="experience-li">Bachelor of Engineering - BE, Civil Engineering</li>
+          <li class="experience-li2">2008 — 2013</li>
+          <li class="experience-li"><b>Gdańsk University of Technology</b></li>
+          <li class="experience-li">Master of Science - MS, Civil Engineering</li>
+          <li class="experience-li2">2015 - 2017</li>
+          <li class="experience-li"><b>Gdańsk University of Technology</b></li>
+          <li class="experience-li">Doctor of Philosophy - PhD, Department of Mechanics of Materials and Structures</li>
+          <li class="experience-li2">2017 - 2020</li>
+          <li class="experience-li"><b>School Course «JavaScript/Front-end. Stage 0</b></li>
+          <li class="experience-li">HTML, CSS, JS</li>
+          <li class="experience-li2">2022 - in progress</li>
+      </ul>
+  </section>
+
+
+
+  
+  <section class="languages" id="languages">
+      <h2>Languages</h2>
+      <p><b>English:</b> B1</p>
+      <div class="bar-container" id="bar-english">
+          <div class="bar">55%</div>
+      </div>
+      <p><b>German:</b> A2</p>
+      <div class="bar-container" id="bar-german">
+          <div class="bar">40%</div>
+      </div>
+      <p><b>Polish:</b> native</p>
+      <div class="bar-container" id="bar-polish">
+          <div class="bar">100%</div>
+      </div>
+      <p><b>Russian:</b> native</p>
+      <div class="bar-container" id="bar-russian">
+          <div class="bar">100%</div>
+      </div>
+  </section>
+</main>
+
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <ul class="footer-ul">
+      <li class="footer-li">
+        <a href="https://rs.school/js/"><img id="logo_rsschool" src="img/logo_rsschool.svg" alt="Logo RS School">
+        </a>
+      </li>
+      <li class="footer-li">
+        <a href="https://github.com/ne0rin/"><img id="logo_github" src="img/logo_github.svg" alt="GitHub logo">
+        </a>
+      </li>
+      <li class="footer-li">
+        <span>2022 (c) Roman Kachniuk</span>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+
+
+
+</body>
 </html>
